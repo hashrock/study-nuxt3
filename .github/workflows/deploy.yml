@@ -29,5 +29,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "old-pike-87"
-          entrypoint: "server/index.js" # 📝 Update the entrypoint
+          entrypoint: "server/index.ts" # 📝 Update the entrypoint
           root: ".output"
